@@ -1,0 +1,30 @@
+print('1. Add')
+print('2. Subtract')
+print('3. Multiply')
+print('4. Divide')
+
+while True:
+    choice = int(input('Select Operator: '))
+    break
+
+if choice >= 1 and choice <= 4:
+    num1 = int(input("Enter first number: "))
+    num2 = int(input('Enter second number: '))
+
+if choice == 1:
+    total = num1 + num2
+    print(str(num1) + ' + ' + str(num2) + ' = ', total)
+
+if choice == 2:
+    total = num1 - num2
+    print(str(num1) + ' - ' + str(num2) + ' = ', total)
+
+if choice == 3:
+    total = num1 * num2
+    print(str(num1) + ' * ' + str(num2) + ' = ', total)
+
+if choice == 4:
+    total = num1 / num2
+    print(str(num1) + ' / ' + str(num2) + ' = ', total
+    
+    
